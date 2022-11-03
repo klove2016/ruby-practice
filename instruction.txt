@@ -1,0 +1,40 @@
+ =begin
+Write a program to see if a given value exists in an array
+colors = ['Blue', 'Green', 'Red', 'Pink', 'Black', 'Purple']
+# Write your code here, test it with 'Green' and 'Orange' and make sure you get true and false respectively
+
+. Write a program to split the elements of an array with mixed types into 2 sorted arrays, one with Strings and one with Ints
+mixed_types_array = [1, 93, 'Cat', 5, 'Apple', 'Violin', 64]
+
+# Write your code here
+# Expected Result:
+# [1, 5, 64, 93]
+# ['Apple', 'Cat', 'Violin']
+
+
+There is a Ruby method to determine if a key is defined on a hash. See if you can find it in the documentation
+numbers_hash = { 'one' => 1, 'two' => 2, 'four' => 4 }
+
+# Write your code here, test it with 'one' and 'three' and make sure you get true and false respectively
+
+
+Given a nested array of 2-element arrays, see if you can convert them into a hash with the first elements of the arrays as the keys, and the values as arrays of the second elements with a shared first element
+nested_array = [
+  ['Pet', 'Dog'],
+  ['Fruit', 'Apple'],
+  ['TV Show', 'Breaking Bad'],
+  ['Pet', 'Cat'],
+  ['Pet', 'Goldfish'],
+  ['TV Show', 'The Office'],
+  ['Fruit', 'Grape'],
+  ['TV Show', 'Game of Thrones']
+]
+
+# Write your code here
+# Expected Result: {
+#   'Pet' => ['Dog', 'Cat', 'Goldfish'],
+#   'Fruit' => ['Apple', 'Grape'],
+#   'TV Show' => ['Breaking Bad', 'The Office', 'Game of Thrones']
+# }
+
+=end
